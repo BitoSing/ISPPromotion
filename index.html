@@ -10,34 +10,45 @@
             color: #2d3e50;
         }
         h1 { 
-            color: #004785;
-            border-bottom: 2px solid #007ac1;
+            color: #4d3075;
+            border-bottom: 2px solid #4d3075;
             padding-bottom: 10px;
         }
         h2 { 
-            color: #007ac1;
+            color: #4d3075;
             margin-top: 30px;
-            background: #f0f8ff;
+            background: #faf1ff;
             padding: 10px;
             border-radius: 4px;
         }
+        h3 {
+            font-size: 16px;
+            margin: 20px 0px;
+        }
         table { 
+            width: 100%;
             border-collapse: collapse; 
             margin: 20px 0;
-            border: 2px solid #007ac1;
+            border: 2px solid #7246c6;
         }
         th, td { 
-            border: 1px solid #cfe2f3;
+            border: 1px solid #8569ad;
             padding: 12px;
             text-align: left;
         }
         th { 
-            background-color: #007ac1;
+            background-color: #4d3075;
             color: white;
             font-weight: bold;
+            text-align: center;
+        }
+        td { 
+            text-align: center;
         }
         .note { 
             color: #666; 
+            font-style: italic;
+            font-weight: bold;
             font-size: 0.8em;
             margin-top: -10px;
             padding-left: 15px;
@@ -90,7 +101,7 @@
         <h3>Scenario I - Customers staying at current plans:</h3>
         <table>
             <tr>
-                <th rowspan="2">Upfront Payment</th>
+                <th rowspan="2" style="text-align: left;">Upfront Payment</th>
                 <th colspan="4">Commitment Period</th>
             </tr>
             <tr>
@@ -100,14 +111,14 @@
                 <th>6 months</th>
             </tr>
             <tr>
-                <td>Residential</td>
+                <td style="text-align: left;">Residential</td>
                 <td>Free 8 months</td>
                 <td>Free 5 months</td>
                 <td>Free 3 months</td>
                 <td>Free 1 month</td>
             </tr>
             <tr>
-                <td>SME</td>
+                <td style="text-align: left;">SME</td>
                 <td>Free 5 months</td>
                 <td>N/A</td>
                 <td>Free 2 months</td>
@@ -118,14 +129,14 @@
         <h3>Scenario II – Customers upgrading to Megasurf 30Mbps or Higher:</h3>
         <table>
             <tr>
-                <th>Upfront Payment</th>
+                <th style="text-align: left;">Upfront Payment</th>
                 <th>24 months</th>
                 <th>18 months</th>
                 <th>12 months</th>
                 <th>6 months</th>
             </tr>
             <tr>
-                <td>Residential</td>
+                <td style="text-align: left;">Residential</td>
                 <td>Free 10 months</td>
                 <td>N/A</td>
                 <td>Free 5 months</td>
@@ -140,7 +151,7 @@
         <div class="effective-date">Effective Date: 3rd January 2024</div>
         <table>
             <tr>
-                <th rowspan="2">Existing Execom Renew Earlier at least 1 month (Nationwide) > 30 Days</th>
+                <th rowspan="2" style="text-align: left;">Existing Ezecom Renew Earlier at least 1 month (Nationwide) > 30 Days</th>
                 <th colspan="5">Upfront Payment</th>
             </tr>
             <tr>
@@ -151,7 +162,31 @@
                 <th>3 months</th>
             </tr>
             <tr>
-                <td>MegasSurf – 100 Mbps</td>
+                <td style="text-align: left;">MegasSurf – 50 Mbps</td>
+                <td>N/A</td>
+                <td>N/A</td>
+                <td>Free 5 months</td>
+                <td>Free 3 month</td>
+                <td>Free 2 month</td>
+            </tr>
+            <tr>
+                <td style="text-align: left;">MegasSurf – 100 Mbps</td>
+                <td>N/A</td>
+                <td>N/A</td>
+                <td>Free 5 months</td>
+                <td>Free 3 month</td>
+                <td>Free 2 month</td>
+            </tr>
+            <tr>
+                <td style="text-align: left;">MegasSurf – 150 Mbps</td>
+                <td>N/A</td>
+                <td>N/A</td>
+                <td>Free 5 months</td>
+                <td>Free 3 month</td>
+                <td>Free 2 month</td>
+            </tr>
+            <tr>
+                <td style="text-align: left;">MegasSurf – 200 Mbps</td>
                 <td>N/A</td>
                 <td>N/A</td>
                 <td>Free 5 months</td>
@@ -172,13 +207,13 @@
                 <th>Retention Offer</th>
             </tr>
             <tr>
-                <td>MegasSurf - 30Mbps (Mbps)</td>
-                <td>
+                <td style="text-align: left;">MegasSurf - 30Mbps (Mbps)</td>
+                <td style="text-align: left;">
                     VAT Price: $18/month<br>
                     Speed: 30MB<br>
                     Promo: (6+1); (12+3); (18+5); (24+8)
                 </td>
-                <td>
+                <td style="text-align: left;">
                     VAT Price: $15/month<br>
                     Speed: 30MB<br>
                     Promo: NO FREE MONTH<br>
@@ -186,13 +221,13 @@
                 </td>
             </tr>
             <tr>
-                <td>EZE - F6 - Flat (FTTH-20M)</td>
-                <td>
+                <td style="text-align: left;">EZE - F6 - Flat (FTTH-20M)</td>
+                <td style="text-align: left;">
                     VAT Price: $16/month<br>
                     Speed: 20MB<br>
                     Promo: (6+1); (12+3); (18+5); (24+8)
                 </td>
-                <td>
+                <td style="text-align: left;">
                     <strong>OPT 1:</strong> Upgrade customer from 20Mbps to 30Mbps with VAT Price: $16/month<br>
                     Speed: 30MB<br>
                     Promo: NO FREE MONTH<br>
@@ -205,13 +240,13 @@
                 </td>
             </tr>
             <tr>
-                <td>MegasSurf - 50Mbps</td>
-                <td>
+                <td style="text-align: left;">MegasSurf - 50Mbps</td>
+                <td style="text-align: left;">
                     VAT Price: $29/month<br>
                     Speed: 50MB<br>
                     Promo: (6+1); (12+3); (18+5); (24+8)
                 </td>
-                <td>
+                <td style="text-align: left;">
                     VAT Price: $25/month<br>
                     Speed: 50MB<br>
                     Promo: NO FREE MONTH<br>
@@ -229,12 +264,12 @@
                 <th>Plan Package</th>
                 <th>MRC (Incl. VAT)</th>
                 <th>Local Bandwidth</th>
-                <th>24/18 months</th>
+                <th>24 / 18 months</th>
                 <th>12 months</th>
                 <th>6 months</th>
             </tr>
             <tr>
-                <td>MegaBiz Pro 30MB</td>
+                <td style="text-align: left;">MegaBiz Pro 30MB</td>
                 <td>$35.20</td>
                 <td>100</td>
                 <td>N/A</td>
@@ -242,7 +277,7 @@
                 <td>Free 1 month</td>
             </tr>
             <tr>
-                <td>MegaBiz Pro 50MB</td>
+                <td style="text-align: left;">MegaBiz Pro 50MB</td>
                 <td>$42.90</td>
                 <td>100</td>
                 <td>N/A</td>
@@ -250,7 +285,7 @@
                 <td>Free 1 month</td>
             </tr>
             <tr>
-                <td>MegaBiz Pro 100MB</td>
+                <td style="text-align: left;">MegaBiz Pro 100MB</td>
                 <td>$74.80</td>
                 <td>200</td>
                 <td>N/A</td>
@@ -258,7 +293,7 @@
                 <td>Free 1 month</td>
             </tr>
             <tr>
-                <td>MegaBiz Pro 150MB</td>
+                <td style="text-align: left;">MegaBiz Pro 150MB</td>
                 <td>$104.50</td>
                 <td>200</td>
                 <td>N/A</td>
@@ -266,7 +301,7 @@
                 <td>Free 1 month</td>
             </tr>
             <tr>
-                <td>MegaBiz Pro 200MB</td>
+                <td style="text-align: left;">MegaBiz Pro 200MB</td>
                 <td>$132.00</td>
                 <td>300</td>
                 <td>N/A</td>
@@ -274,7 +309,7 @@
                 <td>Free 1 month</td>
             </tr>
             <tr>
-                <td>MegaBiz Pro 300MB</td>
+                <td style="text-align: left;">MegaBiz Pro 300MB</td>
                 <td>$192.50</td>
                 <td>300</td>
                 <td>N/A</td>
@@ -282,7 +317,7 @@
                 <td>Free 1 month</td>
             </tr>
             <tr>
-                <td>MegaBiz Pro 500MB</td>
+                <td style="text-align: left;">MegaBiz Pro 500MB</td>
                 <td>$308.00</td>
                 <td>500</td>
                 <td>N/A</td>
@@ -290,7 +325,7 @@
                 <td>Free 1 month</td>
             </tr>
             <tr>
-                <td>MegaBiz Pro 800MB</td>
+                <td style="text-align: left;">MegaBiz Pro 800MB</td>
                 <td>$660.00</td>
                 <td>800</td>
                 <td>N/A</td>
@@ -311,26 +346,26 @@
 
     <!-- Cellcard Content -->
     <div id="cellcard" class="content-section">
-        <h1>CELLCARD's Promotion</h1>
+        <h1 style="color: #ff9e1a;">CELLCARD's Promotion</h1>
 
         <!-- Promotion 1 -->
-        <h2>1. Promotion Cellcard Home Wi-Fi for Renewal/Retention for Upgrade Bandwidth</h2>
+        <h2 style="color: #ff9e1a; background: #fff3e3;">1. Promotion Cellcard Home Wi-Fi for Renewal/Retention for Upgrade Bandwidth</h2>
         <div class="effective-date">Effective Date: 2018-2024</div>
         
         <h3>Promotion 1: Upsell Offer - Before Expiry ≥60 Days</h3>
-        <table>
+        <table style="border: 2px solid #ff9e1a;">
             <tr>
-                <th>Package</th>
-                <th>Local Speed</th>
-                <th>Stand. Price</th>
-                <th>Upsell Price</th>
-                <th>Total Price</th>
-                <th>New Package</th>
-                <th>Free 3 Months</th>
-                <th>24 Months</th>
-                <th>18 Months</th>
-                <th>12 Months</th>
-                <th>6 Months</th>
+                <th style="background-color: #ff9e1a; color: white;">Package</th>
+                <th style="background-color: #ff9e1a; color: white;">Local Speed</th>
+                <th style="background-color: #ff9e1a; color: white;">Stand. Price</th>
+                <th style="background-color: #ff9e1a; color: white;">Upsell Price</th>
+                <th style="background-color: #ff9e1a; color: white;">Total Price</th>
+                <th style="background-color: #ff9e1a; color: white;">New Package</th>
+                <th style="background-color: #ff9e1a; color: white;">Free 3 Months</th>
+                <th style="background-color: #ff9e1a; color: white;">24 Months</th>
+                <th style="background-color: #ff9e1a; color: white;">18 Months</th>
+                <th style="background-color: #ff9e1a; color: white;">12 Months</th>
+                <th style="background-color: #ff9e1a; color: white;">6 Months</th>
             </tr>
             <tr>
                 <td>CCWW - 20 Mbps</td>
@@ -415,19 +450,19 @@
 
         <!-- Promotion 2 -->
         <h3>Promotion 2: Upsell Offer - Before Expiry <60 Days</h3>
-        <table>
+        <table style="border: 2px solid #ff9e1a;">
             <tr>
-                <th>Package</th>
-                <th>Local Speed</th>
-                <th>Stand. Price</th>
-                <th>Upsell Price</th>
-                <th>Total Price</th>
-                <th>New Package</th>
-                <th>Free 3 Months</th>
-                <th>24 Months</th>
-                <th>18 Months</th>
-                <th>12 Months</th>
-                <th>6 Months</th>
+                <th style="background-color: #ff9e1a; color: white;">Package</th>
+                <th style="background-color: #ff9e1a; color: white;">Local Speed</th>
+                <th style="background-color: #ff9e1a; color: white;">Stand. Price</th>
+                <th style="background-color: #ff9e1a; color: white;">Upsell Price</th>
+                <th style="background-color: #ff9e1a; color: white;">Total Price</th>
+                <th style="background-color: #ff9e1a; color: white;">New Package</th>
+                <th style="background-color: #ff9e1a; color: white;">Free 3 Months</th>
+                <th style="background-color: #ff9e1a; color: white;">24 Months</th>
+                <th style="background-color: #ff9e1a; color: white;">18 Months</th>
+                <th style="background-color: #ff9e1a; color: white;">12 Months</th>
+                <th style="background-color: #ff9e1a; color: white;">6 Months</th>
             </tr>
             <tr>
                 <td>CCWW - 20 Mbps</td>
@@ -511,20 +546,20 @@
         <p class="note">* Note: All prices exclude first free 2 months</p>
 
         <!-- Promotion 3 -->
-        <h2>2. Promotion Cellcard Home Wi-Fi for Renewal/Retention for NO Upgrade Bandwidth</h2>
+        <h2 style="color: #ff9e1a; background: #fff3e3;">2. Promotion Cellcard Home Wi-Fi for Renewal/Retention for NO Upgrade Bandwidth</h2>
         
         <h3>1st Priority Option: Renewal with Standard Price - NO FREE MONTHS - Before Expiry Date</h3>
-        <table>
+        <table style="border: 2px solid #ff9e1a;">
             <tr>
-                <th>Package</th>
-                <th>Local Speed</th>
-                <th>Stand. Price</th>
-                <th>Free 3 Months</th>
-                <th>24 Months</th>
-                <th>18 Months</th>
-                <th>12 Months</th>
-                <th>6 Months</th>
-                <th>3 Months</th>
+                <th style="background-color: #ff9e1a; color: white;">Package</th>
+                <th style="background-color: #ff9e1a; color: white;">Local Speed</th>
+                <th style="background-color: #ff9e1a; color: white;">Stand. Price</th>
+                <th style="background-color: #ff9e1a; color: white;">Free 3 Months</th>
+                <th style="background-color: #ff9e1a; color: white;">24 Months</th>
+                <th style="background-color: #ff9e1a; color: white;">18 Months</th>
+                <th style="background-color: #ff9e1a; color: white;">12 Months</th>
+                <th style="background-color: #ff9e1a; color: white;">6 Months</th>
+                <th style="background-color: #ff9e1a; color: white;">3 Months</th>
             </tr>
             <tr>
                 <td>CCWW - 20 Mbps</td>
@@ -595,17 +630,17 @@
         </table>
 
         <h3>2nd Priority Option: Renewal with Standard Price - HAVE FREE MONTHS - Before Expiry Date</h3>
-        <table>
+        <table style="border: 2px solid #ff9e1a;">
             <tr>
-                <th>Package</th>
-                <th>Local Speed</th>
-                <th>Stand. Price</th>
-                <th>Free 3 Months</th>
-                <th>24 Months</th>
-                <th>18 Months</th>
-                <th>12 Months</th>
-                <th>6 Months</th>
-                <th>3 Months</th>
+                <th style="background-color: #ff9e1a; color: white;">Package</th>
+                <th style="background-color: #ff9e1a; color: white;">Local Speed</th>
+                <th style="background-color: #ff9e1a; color: white;">Stand. Price</th>
+                <th style="background-color: #ff9e1a; color: white;">Free 3 Months</th>
+                <th style="background-color: #ff9e1a; color: white;">24 Months</th>
+                <th style="background-color: #ff9e1a; color: white;">18 Months</th>
+                <th style="background-color: #ff9e1a; color: white;">12 Months</th>
+                <th style="background-color: #ff9e1a; color: white;">6 Months</th>
+                <th style="background-color: #ff9e1a; color: white;">3 Months</th>
             </tr>
             <tr>
                 <td>CCWW - 20 Mbps</td>
@@ -676,17 +711,17 @@
         </table>
 
         <h3>3rd Priority - Retention Offer with Standard Price - HAVE FREE MONTHS - After Expiry Date (1 Day - 30 days After Expiry Date)</h3>
-        <table>
+        <table style="border: 2px solid #ff9e1a;">
             <tr>
-                <th>Package</th>
-                <th>Local Speed</th>
-                <th>Stand. Price</th>
-                <th>Free 3 Months</th>
-                <th>24 Months</th>
-                <th>18 Months</th>
-                <th>12 Months</th>
-                <th>6 Months</th>
-                <th>3 Months</th>
+                <th style="background-color: #ff9e1a; color: white;">Package</th>
+                <th style="background-color: #ff9e1a; color: white;">Local Speed</th>
+                <th style="background-color: #ff9e1a; color: white;">Stand. Price</th>
+                <th style="background-color: #ff9e1a; color: white;">Free 3 Months</th>
+                <th style="background-color: #ff9e1a; color: white;">24 Months</th>
+                <th style="background-color: #ff9e1a; color: white;">18 Months</th>
+                <th style="background-color: #ff9e1a; color: white;">12 Months</th>
+                <th style="background-color: #ff9e1a; color: white;">6 Months</th>
+                <th style="background-color: #ff9e1a; color: white;">3 Months</th>
             </tr>
             <tr>
                 <td>CCWW - 20 Mbps</td>
