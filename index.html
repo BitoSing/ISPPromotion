@@ -1,0 +1,773 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ISP Promotions</title>
+    <style>
+        body { 
+            font-family: Arial, sans-serif; 
+            margin: 40px;
+            color: #2d3e50;
+        }
+        h1 { 
+            color: #004785;
+            border-bottom: 2px solid #007ac1;
+            padding-bottom: 10px;
+        }
+        h2 { 
+            color: #007ac1;
+            margin-top: 30px;
+            background: #f0f8ff;
+            padding: 10px;
+            border-radius: 4px;
+        }
+        table { 
+            border-collapse: collapse; 
+            margin: 20px 0;
+            border: 2px solid #007ac1;
+        }
+        th, td { 
+            border: 1px solid #cfe2f3;
+            padding: 12px;
+            text-align: left;
+        }
+        th { 
+            background-color: #007ac1;
+            color: white;
+            font-weight: bold;
+        }
+        .note { 
+            color: #666; 
+            font-size: 0.9em;
+            margin-top: -10px;
+            padding-left: 15px;
+            border-left: 3px solid #ff9900;
+        }
+        .effective-date {
+            color: #008000;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+        .button-container {
+            margin-bottom: 30px;
+        }
+        .entity-btn {
+            padding: 12px 24px;
+            margin-right: 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-weight: bold;
+            background-color: #e0e0e0;
+        }
+        .active {
+            background-color: #007ac1;
+            color: white;
+        }
+        .content-section {
+            display: none;
+        }
+        .visible {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="button-container">
+        <button class="entity-btn active" onclick="showContent('ezeecom')">EZECOM</button>
+        <button class="entity-btn" onclick="showContent('cellcard')">Cellcard</button>
+    </div>
+
+    <!-- EZECOM Content -->
+    <div id="ezeecom" class="content-section visible">
+        <h1>EZECOM's Promotion</h1>
+        <p>Retention promotion offer to the customer for existing connections.</p>
+
+        <!-- RetentionPlan 24 -->
+        <h2>1. RetentionPlan 24</h2>
+        <div class="effective-date">Effective Date: 5th June 2022</div>
+        
+        <h3>Scenario I - Customers staying at current plans:</h3>
+        <table>
+            <tr>
+                <th rowspan="2">Upfront Payment</th>
+                <th colspan="4">Commitment Period</th>
+            </tr>
+            <tr>
+                <th>24 months</th>
+                <th>18 months</th>
+                <th>12 months</th>
+                <th>6 months</th>
+            </tr>
+            <tr>
+                <td>Residential</td>
+                <td>Free 8 months</td>
+                <td>Free 5 months</td>
+                <td>Free 3 months</td>
+                <td>Free 1 month</td>
+            </tr>
+            <tr>
+                <td>SME</td>
+                <td>Free 5 months</td>
+                <td>N/A</td>
+                <td>Free 2 months</td>
+                <td>Free 1 month</td>
+            </tr>
+        </table>
+
+        <h3>Scenario II – Customers upgrading to Megasurf 30Mbps or Higher:</h3>
+        <table>
+            <tr>
+                <th>Upfront Payment</th>
+                <th>24 months</th>
+                <th>18 months</th>
+                <th>12 months</th>
+                <th>6 months</th>
+            </tr>
+            <tr>
+                <td>Residential</td>
+                <td>Free 10 months</td>
+                <td>N/A</td>
+                <td>Free 5 months</td>
+                <td>Free 2 month</td>
+            </tr>
+        </table>
+        <p class="note">* Noted: Downgrade Speed from higher price/speed to lower price/speed, we apply only 0+1, 12+2.<br>
+        All above promotion are standard price, discount price aren’t eligible to have.</p>
+
+        <!-- Renew 1 Month Section -->
+        <h2>2. Renew 1 Month In - Advance</h2>
+        <div class="effective-date">Effective Date: 3rd January 2024</div>
+        <table>
+            <tr>
+                <th rowspan="2">Existing Execom Renew Earlier at least 1 month (Nationwide) > 30 Days</th>
+                <th colspan="5">Upfront Payment</th>
+            </tr>
+            <tr>
+                <th>24 months</th>
+                <th>18 months</th>
+                <th>12 months</th>
+                <th>6 months</th>
+                <th>3 months</th>
+            </tr>
+            <tr>
+                <td>MegasSurf – 100 Mbps</td>
+                <td>N/A</td>
+                <td>N/A</td>
+                <td>Free 5 months</td>
+                <td>Free 3 month</td>
+                <td>Free 2 month</td>
+            </tr>
+        </table>
+        <p class="note">* Noted: All above promotion are standard price, discount price aren’t eligible to have.</p>
+
+        <!-- Last Choice Offer -->
+        <h2>3. Last Choice Offer to Win Back the customer from Termination</h2>
+        <div class="effective-date">Effective Date: 13th June 2024</div>
+        <p><strong>Objective:</strong> To increase EZECOM customer retention by providing personalized offers.</p>
+        <table>
+            <tr>
+                <th>Plan Packages</th>
+                <th>Current Plan</th>
+                <th>Retention Offer</th>
+            </tr>
+            <tr>
+                <td>MegasSurf - 30Mbps (LBS)</td>
+                <td>
+                    VAT Price: $18/month<br>
+                    Speed: 30MB<br>
+                    Promo: (6+1); (12+3); (18+5); (24+8)
+                </td>
+                <td>
+                    VAT Price: $15/month<br>
+                    Speed: 30MB<br>
+                    Promo: NO FREE MONTH<br>
+                    Eligible to renew: Monthly / Upfront
+                </td>
+            </tr>
+            <tr>
+                <td>EZE - F6 - Flat (FITH-20M)</td>
+                <td>
+                    VAT Price: $16/month<br>
+                    Speed: 20MB<br>
+                    Promo: (6+1); (12+3); (18+5); (24+8)
+                </td>
+                <td>
+                    <strong>OPT 1:</strong> Upgrade customer from 20Mbps to 30Mbps with VAT Price: $16/month<br>
+                    Speed: 30MB<br>
+                    Promo: NO FREE MONTH<br>
+                    Eligible to renew: Monthly / Upfront<br>
+                    <strong>OPT 2:</strong> Discount to $15/month<br>
+                    VAT Price: $15<br>
+                    Speed: 20MB<br>
+                    Promo: NO FREE MONTH<br>
+                    Eligible to renew: Monthly / Upfront
+                </td>
+            </tr>
+            <tr>
+                <td>MegasSurf - 50Mbps</td>
+                <td>
+                    VAT Price: $29/month<br>
+                    Speed: 50MB<br>
+                    Promo: (6+1); (12+3); (18+5); (24+8)
+                </td>
+                <td>
+                    VAT Price: $25/month<br>
+                    Speed: 50MB<br>
+                    Promo: NO FREE MONTH<br>
+                    Profit Margin: 53%<br>
+                    Eligible to renew: Monthly / Upfront
+                </td>
+            </tr>
+        </table>
+
+        <!-- New MegaBiz Pro -->
+        <h2>4. New Sale and Retention Product (New MegaBiz Pro)</h2>
+        <div class="effective-date">Effective Date: 16th July 2024</div>
+        <table>
+            <tr>
+                <th>Plan Package</th>
+                <th>MRC (Incl. VAT)</th>
+                <th>Local Bandwidth</th>
+                <th>24/18 months</th>
+                <th>12 months</th>
+                <th>6 months</th>
+            </tr>
+            <tr>
+                <td>MegaBiz Pro 30MB</td>
+                <td>$35.20</td>
+                <td>100</td>
+                <td>N/A</td>
+                <td>Free 4 months</td>
+                <td>Free 1 month</td>
+            </tr>
+            <tr>
+                <td>MegaBiz Pro 50MB</td>
+                <td>$42.90</td>
+                <td>100</td>
+                <td>N/A</td>
+                <td>Free 4 months</td>
+                <td>Free 1 month</td>
+            </tr>
+            <tr>
+                <td>MegaBiz Pro 100MB</td>
+                <td>$74.80</td>
+                <td>200</td>
+                <td>N/A</td>
+                <td>Free 4 months</td>
+                <td>Free 1 month</td>
+            </tr>
+            <tr>
+                <td>MegaBiz Pro 150MB</td>
+                <td>$104.50</td>
+                <td>200</td>
+                <td>N/A</td>
+                <td>Free 4 months</td>
+                <td>Free 1 month</td>
+            </tr>
+            <tr>
+                <td>MegaBiz Pro 200MB</td>
+                <td>$132.00</td>
+                <td>300</td>
+                <td>N/A</td>
+                <td>Free 4 months</td>
+                <td>Free 1 month</td>
+            </tr>
+            <tr>
+                <td>MegaBiz Pro 300MB</td>
+                <td>$192.50</td>
+                <td>300</td>
+                <td>N/A</td>
+                <td>Free 4 months</td>
+                <td>Free 1 month</td>
+            </tr>
+            <tr>
+                <td>MegaBiz Pro 500MB</td>
+                <td>$308.00</td>
+                <td>500</td>
+                <td>N/A</td>
+                <td>Free 4 months</td>
+                <td>Free 1 month</td>
+            </tr>
+            <tr>
+                <td>MegaBiz Pro 800MB</td>
+                <td>$660.00</td>
+                <td>800</td>
+                <td>N/A</td>
+                <td>Free 4 months</td>
+                <td>Free 1 month</td>
+            </tr>
+        </table>
+
+        <!-- Terms -->
+        <h2>Term and Conditions:</h2>
+        <ul>
+            <li>Minimum agreement is 12 months.</li>
+            <li>Last mile installation at 800 meters is provided free of charge for at least 6 months upfront payment.</li>
+            <li>These packages are applicable for new and existing customers on the next agreement renewal.</li>
+            <li>Any package above 800Mbps, 1Gbps local bandwidth will be provided.</li>
+        </ul>
+    </div>
+
+    <!-- Cellcard Content -->
+    <div id="cellcard" class="content-section">
+        <h1>CELLCARD's Promotion</h1>
+
+        <!-- Promotion 1 -->
+        <h2>1. Promotion Cellcard Home Wi-Fi for Renewal/Retention for Upgrade Bandwidth</h2>
+        <div class="effective-date">Effective Date: 2018-2024</div>
+        
+        <h3>Promotion 1: Upsell Offer - Before Expiry ≥60 Days</h3>
+        <table>
+            <tr>
+                <th>Package</th>
+                <th>Local Speed</th>
+                <th>Stand. Price</th>
+                <th>Upsell Price</th>
+                <th>Total Price</th>
+                <th>New Package</th>
+                <th>Free 3 Months</th>
+                <th>24 Months</th>
+                <th>18 Months</th>
+                <th>12 Months</th>
+                <th>6 Months</th>
+            </tr>
+            <tr>
+                <td>CCWW - 20 Mbps</td>
+                <td>60 Mbps</td>
+                <td>$15</td>
+                <td>N/A</td>
+                <td>$15</td>
+                <td>N/A</td>
+                <td>N/A</td>
+                <td>$360</td>
+                <td>$270</td>
+                <td>$180</td>
+                <td>$90</td>
+            </tr>
+            <tr>
+                <td>CCWW - 30 Mbps</td>
+                <td>100 Mbps</td>
+                <td>$18</td>
+                <td>$5</td>
+                <td>$23</td>
+                <td>CCWW - 50 Mbps</td>
+                <td>$15</td>
+                <td>$547</td>
+                <td>$409</td>
+                <td>$271</td>
+                <td>$133</td>
+            </tr>
+            <tr>
+                <td>CCWW - 50 Mbps</td>
+                <td>250 Mbps</td>
+                <td>$29</td>
+                <td>$5</td>
+                <td>$34</td>
+                <td>CCWW - 100 Mbps</td>
+                <td>$15</td>
+                <td>$811</td>
+                <td>$607</td>
+                <td>$403</td>
+                <td>$199</td>
+            </tr>
+            <tr>
+                <td>CCWW - 100 Mbps</td>
+                <td>400 Mbps</td>
+                <td>$49</td>
+                <td>$5</td>
+                <td>$54</td>
+                <td>CCWW - 150 Mbps</td>
+                <td>$15</td>
+                <td>$1,291</td>
+                <td>$967</td>
+                <td>$643</td>
+                <td>$319</td>
+            </tr>
+            <tr>
+                <td>CCWW - 150 Mbps</td>
+                <td>500 Mbps</td>
+                <td>$69</td>
+                <td>$5</td>
+                <td>$74</td>
+                <td>CCWW - 200 Mbps</td>
+                <td>$15</td>
+                <td>$1,771</td>
+                <td>$1,327</td>
+                <td>$883</td>
+                <td>$439</td>
+            </tr>
+            <tr>
+                <td>CCWW - 200 Mbps</td>
+                <td>600 Mbps</td>
+                <td>$89</td>
+                <td>N/A</td>
+                <td>$89</td>
+                <td>N/A</td>
+                <td>N/A</td>
+                <td>$2,136</td>
+                <td>$2,136</td>
+                <td>$2,136</td>
+                <td>$2,136</td>
+            </tr>
+        </table>
+        <p class="note">* Note: All prices exclude first free 2 months</p>
+
+        <!-- Promotion 2 -->
+        <h3>Promotion 2: Upsell Offer - Before Expiry <60 Days</h3>
+        <table>
+            <tr>
+                <th>Package</th>
+                <th>Local Speed</th>
+                <th>Stand. Price</th>
+                <th>Upsell Price</th>
+                <th>Total Price</th>
+                <th>New Package</th>
+                <th>Free 3 Months</th>
+                <th>24 Months</th>
+                <th>18 Months</th>
+                <th>12 Months</th>
+                <th>6 Months</th>
+            </tr>
+            <tr>
+                <td>CCWW - 20 Mbps</td>
+                <td>60 Mbps</td>
+                <td>$15</td>
+                <td>N/A</td>
+                <td>$15</td>
+                <td>N/A</td>
+                <td>N/A</td>
+                <td>$360</td>
+                <td>$270</td>
+                <td>$180</td>
+                <td>$90</td>
+            </tr>
+            <tr>
+                <td>CCWW - 30 Mbps</td>
+                <td>100 Mbps</td>
+                <td>$18</td>
+                <td>$5</td>
+                <td>$23</td>
+                <td>CCWW - 50 Mbps</td>
+                <td>N/A</td>
+                <td>$552</td>
+                <td>$414</td>
+                <td>$276</td>
+                <td>$138</td>
+            </tr>
+            <tr>
+                <td>CCWW - 50 Mbps</td>
+                <td>250 Mbps</td>
+                <td>$29</td>
+                <td>$5</td>
+                <td>$34</td>
+                <td>CCWW - 100 Mbps</td>
+                <td>N/A</td>
+                <td>$816</td>
+                <td>$612</td>
+                <td>$408</td>
+                <td>$204</td>
+            </tr>
+            <tr>
+                <td>CCWW - 100 Mbps</td>
+                <td>400 Mbps</td>
+                <td>$49</td>
+                <td>$5</td>
+                <td>$54</td>
+                <td>CCWW - 150 Mbps</td>
+                <td>N/A</td>
+                <td>$1,296</td>
+                <td>$972</td>
+                <td>$648</td>
+                <td>$324</td>
+            </tr>
+            <tr>
+                <td>CCWW - 150 Mbps</td>
+                <td>500 Mbps</td>
+                <td>$69</td>
+                <td>$5</td>
+                <td>$74</td>
+                <td>CCWW - 200 Mbps</td>
+                <td>N/A</td>
+                <td>$1,776</td>
+                <td>$1,332</td>
+                <td>$888</td>
+                <td>$444</td>
+            </tr>
+            <tr>
+                <td>CCWW - 200 Mbps</td>
+                <td>600 Mbps</td>
+                <td>$89</td>
+                <td>N/A</td>
+                <td>$89</td>
+                <td>N/A</td>
+                <td>N/A</td>
+                <td>$2,136</td>
+                <td>$1,602</td>
+                <td>$1,068</td>
+                <td>$534</td>
+            </tr>
+        </table>
+        <p class="note">* Note: All prices exclude first free 2 months</p>
+
+        <!-- Promotion 3 -->
+        <h2>2. Promotion Cellcard Home Wi-Fi for Renewal/Retention for NO Upgrade Bandwidth</h2>
+        
+        <h3>1st Priority Option: Renewal with Standard Price - NO FREE MONTHS - Before Expiry Date</h3>
+        <table>
+            <tr>
+                <th>Package</th>
+                <th>Local Speed</th>
+                <th>Stand. Price</th>
+                <th>Free 3 Months</th>
+                <th>24 Months</th>
+                <th>18 Months</th>
+                <th>12 Months</th>
+                <th>6 Months</th>
+                <th>3 Months</th>
+            </tr>
+            <tr>
+                <td>CCWW - 20 Mbps</td>
+                <td>60 Mbps</td>
+                <td>$15</td>
+                <td>N/A</td>
+                <td>$360</td>
+                <td>$270</td>
+                <td>$180</td>
+                <td>$90</td>
+                <td>$45</td>
+            </tr>
+            <tr>
+                <td>CCWW - 30 Mbps</td>
+                <td>100 Mbps</td>
+                <td>$18</td>
+                <td>N/A</td>
+                <td>$432</td>
+                <td>$324</td>
+                <td>$216</td>
+                <td>$108</td>
+                <td>$54</td>
+            </tr>
+            <tr>
+                <td>CCWW - 50 Mbps</td>
+                <td>250 Mbps</td>
+                <td>$29</td>
+                <td>N/A</td>
+                <td>$696</td>
+                <td>$522</td>
+                <td>$348</td>
+                <td>$174</td>
+                <td>$87</td>
+            </tr>
+            <tr>
+                <td>CCWW - 100 Mbps</td>
+                <td>400 Mbps</td>
+                <td>$49</td>
+                <td>N/A</td>
+                <td>$1,176</td>
+                <td>$882</td>
+                <td>$588</td>
+                <td>$294</td>
+                <td>$147</td>
+            </tr>
+            <tr>
+                <td>CCWW - 150 Mbps</td>
+                <td>500 Mbps</td>
+                <td>$69</td>
+                <td>N/A</td>
+                <td>$1,656</td>
+                <td>$1,242</td>
+                <td>$828</td>
+                <td>$414</td>
+                <td>$207</td>
+            </tr>
+            <tr>
+                <td>CCWW - 200 Mbps</td>
+                <td>600 Mbps</td>
+                <td>$89</td>
+                <td>N/A</td>
+                <td>$2,136</td>
+                <td>$1,602</td>
+                <td>$1,068</td>
+                <td>$534</td>
+                <td>$267</td>
+            </tr>
+        </table>
+
+        <h3>2nd Priority Option: Renewal with Standard Price - HAVE FREE MONTHS - Before Expiry Date</h3>
+        <table>
+            <tr>
+                <th>Package</th>
+                <th>Local Speed</th>
+                <th>Stand. Price</th>
+                <th>Free 3 Months</th>
+                <th>24 Months</th>
+                <th>18 Months</th>
+                <th>12 Months</th>
+                <th>6 Months</th>
+                <th>3 Months</th>
+            </tr>
+            <tr>
+                <td>CCWW - 20 Mbps</td>
+                <td>60 Mbps</td>
+                <td>$15</td>
+                <td>N/A</td>
+                <td>$360</td>
+                <td>$270</td>
+                <td>$180</td>
+                <td>$90</td>
+                <td>$45</td>
+            </tr>
+            <tr>
+                <td>CCWW - 30 Mbps</td>
+                <td>100 Mbps</td>
+                <td>$18</td>
+                <td>N/A</td>
+                <td>$432</td>
+                <td>$324</td>
+                <td>$216</td>
+                <td>$108</td>
+                <td>$54</td>
+            </tr>
+            <tr>
+                <td>CCWW - 50 Mbps</td>
+                <td>250 Mbps</td>
+                <td>$29</td>
+                <td>N/A</td>
+                <td>$696</td>
+                <td>$522</td>
+                <td>$348</td>
+                <td>$174</td>
+                <td>$87</td>
+            </tr>
+            <tr>
+                <td>CCWW - 100 Mbps</td>
+                <td>400 Mbps</td>
+                <td>$49</td>
+                <td>N/A</td>
+                <td>$1,176</td>
+                <td>$882</td>
+                <td>$588</td>
+                <td>$294</td>
+                <td>$147</td>
+            </tr>
+            <tr>
+                <td>CCWW - 150 Mbps</td>
+                <td>500 Mbps</td>
+                <td>$69</td>
+                <td>N/A</td>
+                <td>$1,656</td>
+                <td>$1,242</td>
+                <td>$828</td>
+                <td>$414</td>
+                <td>$207</td>
+            </tr>
+            <tr>
+                <td>CCWW - 200 Mbps</td>
+                <td>600 Mbps</td>
+                <td>$89</td>
+                <td>N/A</td>
+                <td>$2,136</td>
+                <td>$1,602</td>
+                <td>$1,068</td>
+                <td>$534</td>
+                <td>$267</td>
+            </tr>
+        </table>
+
+        <h3>3rd Priority - Retention Offer with Standard Price - HAVE FREE MONTHS - After Expiry Date (1 Day - 30 days After Expiry Date)</h3>
+        <table>
+            <tr>
+                <th>Package</th>
+                <th>Local Speed</th>
+                <th>Stand. Price</th>
+                <th>Free 3 Months</th>
+                <th>24 Months</th>
+                <th>18 Months</th>
+                <th>12 Months</th>
+                <th>6 Months</th>
+                <th>3 Months</th>
+            </tr>
+            <tr>
+                <td>CCWW - 20 Mbps</td>
+                <td>60 Mbps</td>
+                <td>$15</td>
+                <td>N/A</td>
+                <td>$360</td>
+                <td>$270</td>
+                <td>$180</td>
+                <td>$90</td>
+                <td>$45</td>
+            </tr>
+            <tr>
+                <td>CCWW - 30 Mbps</td>
+                <td>100 Mbps</td>
+                <td>$18</td>
+                <td>N/A</td>
+                <td>$432</td>
+                <td>$324</td>
+                <td>$216</td>
+                <td>$108</td>
+                <td>$54</td>
+            </tr>
+            <tr>
+                <td>CCWW - 50 Mbps</td>
+                <td>250 Mbps</td>
+                <td>$29</td>
+                <td>N/A</td>
+                <td>$696</td>
+                <td>$522</td>
+                <td>$348</td>
+                <td>$174</td>
+                <td>$87</td>
+            </tr>
+            <tr>
+                <td>CCWW - 100 Mbps</td>
+                <td>400 Mbps</td>
+                <td>$49</td>
+                <td>N/A</td>
+                <td>$1,176</td>
+                <td>$882</td>
+                <td>$588</td>
+                <td>$294</td>
+                <td>$147</td>
+            </tr>
+            <tr>
+                <td>CCWW - 150 Mbps</td>
+                <td>500 Mbps</td>
+                <td>$69</td>
+                <td>N/A</td>
+                <td>$1,656</td>
+                <td>$1,242</td>
+                <td>$828</td>
+                <td>$414</td>
+                <td>$207</td>
+            </tr>
+            <tr>
+                <td>CCWW - 200 Mbps</td>
+                <td>600 Mbps</td>
+                <td>$89</td>
+                <td>N/A</td>
+                <td>$2,136</td>
+                <td>$1,602</td>
+                <td>$1,068</td>
+                <td>$534</td>
+                <td>$267</td>
+            </tr>
+        </table>
+    </div>
+
+    <script>
+        function showContent(entity) {
+            document.querySelectorAll('.content-section').forEach(section => {
+                section.classList.remove('visible');
+            });
+            document.querySelectorAll('.entity-btn').forEach(btn => {
+                btn.classList.remove('active');
+            });
+            document.getElementById(entity).classList.add('visible');
+            event.target.classList.add('active');
+        }
+    </script>
+</body>
+</html>
